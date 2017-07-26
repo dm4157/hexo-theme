@@ -1,0 +1,18 @@
+<style>
+	#wexin {
+		margin: 0;
+		font-size: 14px;
+		opacity: 1;
+	}
+	#wexin:hover {
+		color: #2bbc8a;
+		cursor: pointer;
+	}
+</style>
+<ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=<%= page.permalink %>"><i class="fa fa-facebook <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=<%= page.permalink %>&text=<%= page.title %>"><i class="fa fa-twitter <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li class="icon bdsharebuttonbox"><a href="javascript:void(0)" data-cmd="weixin" id="wexin" class="fa fa-comments bds_weixin" aria-hidden="true"></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa fa-linkedin <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=<%= page.title %>&body=Check out this article: <%= page.permalink %>"><i class="fa fa-envelope <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+</ul>

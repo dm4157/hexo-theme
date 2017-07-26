@@ -1,0 +1,52 @@
+nav:
+  Home: /
+  Writing: /archives/
+  About: /about/
+  # Projects: https://github.com/dm4157
+
+projects_url: https://github.com/dm4157
+
+customize:
+    gravatar:
+        email: msdg4157@163.com
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/my.jpg
+        gravatar: false
+    favicon: 
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/my.jpg
+        gravatar: false
+      android:
+        url: /images/my.jpg
+        gravator: false
+      apple:
+        url: /images/my.jpg
+        gravator: false
+    social_links:
+        github: https://github.com/dm4157
+        # twitter: /
+        # facebook: /
+        # linkedin: /
+    show_all_posts: false
+    post_count: 5
+    highlight: rainbow
+
+# RSS
+rss: false
+
+# Plugins
+plugins:
+    livere_code: MTAyMC8yOTczMS82Mjk3 # 来比力编码
+    google_analytics: UA-103162179-1 # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
